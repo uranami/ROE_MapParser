@@ -1,0 +1,7 @@
+include README.md
+recursive-include tests *.py
+recursive-include tools *.py
+global-exclude *.py[cod]
+prune output
+prune .venv
+prune .git
